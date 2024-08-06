@@ -7,16 +7,38 @@ A descrição do desafio pode ser encontrada no repositório oficial do desafio:
 
 [YouTube Video](https://youtu.be/s_N4GxKJkUc)
 
+## Como executar
+
+O projeto foi desenvolvido em um ambiente Windows 11 com WLS2 (Ubuntu 24.04 LTS) e Docker Desktop. O intuito é que o projeto possa ser executado em qualquer ambiente que tenha Docker instalado.
+
+Existe um arquivo `Makefile` com comandos para facilitar a execução do projeto
+
+Antes de executar o projeto, é importante notar que tem submódulos que precisam ser inicializados. Para isso, execute o comando:
+
+```bash
+git submodule update --init --recursive
+```
+
+### Docker
+
+Para criar a imagem da aplicação utilizando o Dockerfile e subir a aplicação na porta 5000, execute o comando:
+
+```bash
+make docker-run
+# Para parar a aplicação e remover o container e network execute:
+# make docker-remove
+```
+
 ## Checklist
 
 Este projeto está em desenvolvimento e o checklist será atualizado conforme o desenvolvimento for avançando.
 
 - [ ] **Containerização com Docker:**
-  - [ ] Containerizar a aplicação de gestão de senhas ([giropops-senhas](https://github.com/badtuxx/giropops-senhas)).
-  - [ ] Criar um `Dockerfile` eficiente e seguro.
-    - [ ] Criação do Dockerfile para a aplicação.
-    - [ ] [Multi-stage build](https://docs.docker.com/build/building/multi-stage/).
-    - [ ] Utilização de zero-layer para reduzir o tamanho da imagem. ([Chainguard Images](https://www.chainguard.dev/chainguard-images))
+  - [x] Containerizar a aplicação de gestão de senhas ([giropops-senhas](https://github.com/badtuxx/giropops-senhas)).
+  - [x] Criar um `Dockerfile` eficiente e seguro.
+    - [x] Criação do Dockerfile para a aplicação.
+    - [x] [Multi-stage build](https://docs.docker.com/build/building/multi-stage/).
+    - [x] Utilização de *distroless* para reduzir o tamanho da imagem. ([Chainguard Images](https://www.chainguard.dev/chainguard-images))
     - [ ] Assinatura de imagens com [Cosign](https://docs.sigstore.dev/signing/quickstart/).
   - [ ] Publicar a imagem Docker em um repositório privado.
 
