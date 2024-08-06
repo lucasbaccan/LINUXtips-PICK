@@ -69,10 +69,11 @@ Este projeto está em desenvolvimento e o checklist será atualizado conforme o 
   - [ ] Apresentação das métricas coletadas e alertas acionados.
   - [ ] Explicação das políticas de segurança e conformidade implementadas.
 
-- [ ] **Post no LinkedIn:**
-  - [ ] Publique no LinkedIn sobre o desafio e sua experiência no PICK.
-  - [ ] Inclua no post as hashtags: `#LINUXtipsChallenge` e `#PICKExperience`.
-  - [ ] Mencione o perfil da Linuxtips (@LINUXtips).
+- [x] **Post no LinkedIn:**
+  - [x] Publique no LinkedIn sobre o desafio e sua experiência no PICK. ([LINK]())
+  - [x] Inclua no post as hashtags: `#LINUXtipsChallenge` e `#PICKExperience`.
+  - [x] Mencione o perfil da Linuxtips (@LINUXtips).
+  - [x] Postagem: [LinkedIn](https://www.linkedin.com/posts/lucas-baccan_150-pessoas-em-um-desafio-hard-com-kubernetes-activity-7226708107874213888-XuZX)
 
 - [ ] **Formulários de Submissão:**
   - [ ] **Primeiro Formulário:** Inscrição no desafio e adição do perfil no LinkedIn e a URL do post sobre o desafio.
