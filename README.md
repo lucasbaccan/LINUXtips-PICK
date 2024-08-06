@@ -5,6 +5,8 @@ Desafio do PICK 2024 - [badtuxx/LINUXtips-PICK-24_01](https://github.com/badtuxx
 
 A descrição do desafio pode ser encontrada no repositório oficial do desafio: [badtuxx/LINUXtips-PICK-24_01](https://github.com/badtuxx/LINUXtips-PICK-24_01)
 
+[YouTube Video](https://youtu.be/s_N4GxKJkUc)
+
 ## Checklist
 
 Este projeto está em desenvolvimento e o checklist será atualizado conforme o desenvolvimento for avançando.
